@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+div {
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    background-image: url("christmas00.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bottom {
+    background-image: url("christmas01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.black-block {
+    height: 300px;
+    background-color: black;
+}

@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+}
+
+.box-left {
+    height: 200px;
+    width: 50%;
+    border: 1px black solid;
+    background-color: moccasin;
+    display: flex;
+    align-items: center;
+}
+
+.box-right {
+    height: 200px;
+    width: 50%;
+    border-width: 1px 1px 1px 0px;
+    border-color: black;
+    border-style: solid;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+}

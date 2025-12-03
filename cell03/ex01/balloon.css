@@ -1,0 +1,13 @@
+.balloon {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 50px auto;
+}
+
+.balloon:hover {
+    height: 205px;
+    width: 205px;
+    background-color: blue;
+}

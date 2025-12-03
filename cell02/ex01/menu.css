@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style-type: none;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+li:first-child a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid rgb(13, 150, 104);
+    box-sizing: border-box;        
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-width: 0px 1px 1px 1px;
+    border-color: rgb(13, 150, 104);
+    border-style: solid;
+    box-sizing: border-box;        
+}
+
+li a:hover {
+    background-color: #555555;
+    color: white;
+}

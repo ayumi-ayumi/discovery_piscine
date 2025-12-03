@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.container {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.title {
+    font-size: 28px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    box-shadow: 1px 0px 17px 8px gray;
+    margin-top: 20px;
+}
+
+.top {
+    width: 100%;
+}
+
+.top img {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(208, 197, 248);
+    object-fit: contain;
+    padding: 20px 0;
+}
+
+.card-main {
+    margin: 20px;
+    text-align: center;
+}
+
+.card-main>div {
+    margin-bottom: 16px;
+}
+
+.name {
+    font-size: 32px;
+}
+
+.description {
+    color: rgb(94, 92, 92);
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: center;
+}
+
+.links {
+    width: 100%;
+}
+
+li {
+    margin: 0 3px;
+}
+
+.links i {
+    font-size: 18px;
+    color: black;
+}
+
+.links i:hover {
+    color: blue;
+}
+
+.bottom {
+    background-color: black;
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
